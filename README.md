@@ -1,6 +1,6 @@
 # Distributed Programming
 
-This is the repository of the course *Distributed Programming* (A.A. 2024/25, CdL Magistrale in Ingegneria Informatica, Università degli Studi di Salerno).
+This is the repository of the course **Distributed Programming** (A.A. 2024/25, CdL Magistrale in Ingegneria Informatica, Università degli Studi di Salerno).
 
 ## Schedule
 
