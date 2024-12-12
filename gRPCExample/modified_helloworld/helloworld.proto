@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  // Sends another greeting
+  rpc SayHelloAgain (HelloRequest) returns (HelloReply) {}
+  // Sends a number, regardless of the content of the request
+  rpc SayNumber (EmptyRequest) returns (NumberReply) {}
+}
+
+// a method in gRPC always requires a request type and a response type
+message EmptyRequest {}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
+
+// The response message containing the number
+message NumberReply {
+  int32 number = 1;
+}
